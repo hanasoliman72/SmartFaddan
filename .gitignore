@@ -1,6 +1,6 @@
 # Database files
-farming_agent_memory.sqlite3
-crop_db/
+farming_agent_memory.sqlite3-shm
+farming_agent_memory.sqlite3-wal
 
 # Environment variables (API keys)
 .env
