@@ -108,7 +108,7 @@ class AgentState(TypedDict):
 
 @st.cache_resource
 def init_agent():
-    llm = ChatOllama(model="qwen:1.8b", temperature=0)
+    llm = ChatOllama(model="qwen3:1.7b", temperature=0)
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     
     pc = Pinecone(api_key=os.environ["PINECONE_API_KEY"])
