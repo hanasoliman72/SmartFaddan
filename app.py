@@ -330,7 +330,7 @@ def quality_check_node(state: AgentState) -> dict:
     if not is_sufficient and state.get("retry_count", 0) < 1:
         return {"answer_is_sufficient": False, "needs_web": True, "retry_count": state.get("retry_count", 0) + 1}
    
-
+    return {"answer_is_sufficient": True}  
 
 def ask_clarification(state: AgentState) -> dict:
     message = (
