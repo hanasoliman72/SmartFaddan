@@ -1,4 +1,4 @@
-# 🌱 Smart Fadan — AI Farming Assistant
+# Smart Fadan — AI Farming Assistant
 
 An agentic AI system that helps Egyptian farmers diagnose crop diseases 
 and get actionable recommendations using RAG, real-time weather, and web search.
