@@ -22,7 +22,9 @@ ollama pull qwen2.5:7b
 ```
 
 Add a `.env` file:
+
 PINECONE_API_KEY=your_key
+
 TAVILY_API_KEY=your_key
 
 Then run:
