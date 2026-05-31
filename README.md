@@ -31,3 +31,10 @@ Then run:
 ```bash
 streamlit run app.py
 ```
+
+## Team
+- [Jannah Ayman](https://github.com/jannah-ayman)
+- [Hana Salah](https://github.com/hanasoliman72)
+- [Nancy Saad](https://github.com/nancyabdelbaryy)
+- [Shrouk Mohsen](https://github.com/ShroukMohsen729)
+- [Mayar Mohamed](https://github.com/Mayar820)
